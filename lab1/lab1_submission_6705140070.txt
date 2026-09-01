@@ -1,0 +1,19 @@
+===BEGIN LAB1 SUBMISSION===
+student_id: 6705140070
+timestamp: 2026-09-01T09:17:42Z
+hostname: ubuntu
+---[user: getent passwd]---
+farid836:x:1001:1001::/home/farid836:/bin/sh
+---[group: getent group]---
+research:x:1001:
+---[user-in-group: id]---
+uid=1001(farid836) gid=1001(research) groups=1001(research)
+---[file stat: home file mode/owner]---
+/home/farid836/report_7603.txt mode=600 owner=farid836 group=research
+---[sshd effective config]---
+port 2253
+permitrootlogin no
+passwordauthentication no
+---[integrity]---
+sshd_sha256: 345071be2f775a9a6a29fdd22da1d0a0a81a75d09cb2d6d8f48d6f69451d99bd
+===END LAB1 SUBMISSION===
